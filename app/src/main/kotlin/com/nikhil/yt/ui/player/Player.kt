@@ -620,7 +620,7 @@ fun BottomSheetPlayer(
             Configuration.ORIENTATION_LANDSCAPE -> {
                 if (playerDesignStyle == PlayerDesignStyle.V5) {
                     enrichedMetadata?.let { metadata ->
-                        MetroPlayerContent(
+                        ApplePlayerContent(
                             mediaMetadata = metadata,
                             sliderPosition = sliderPosition,
                             positionMs = position,
@@ -694,7 +694,7 @@ fun BottomSheetPlayer(
             else -> {
                 if (playerDesignStyle == PlayerDesignStyle.V5) {
                     enrichedMetadata?.let { metadata ->
-                        MetroPlayerContent(
+                        ApplePlayerContent(
                             mediaMetadata = metadata,
                             sliderPosition = sliderPosition,
                             positionMs = position,
